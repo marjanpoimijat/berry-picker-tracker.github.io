@@ -48,8 +48,13 @@ a {
   color: rgb(92, 143, 109);
 }
 
+ul {
+  background-color: rgba(0, 80, 40, 0.5);
+}
+
 p {
   margin: 0 auto 1.5em auto;
+  background-color: rgba(0, 80, 40, 0.5);
 }
 
 blockquote {
