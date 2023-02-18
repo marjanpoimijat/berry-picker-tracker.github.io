@@ -7,19 +7,14 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
     />
-
     <link rel="icon" type="image/png" href="favicon.png" />
-
-    <!-- integrity value for jQuery -->
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
-
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-
   <body class="flex flex-col items-center bg-center bg-cover">
     <div class="container p-4 md:p-16">
       <div class="p-4 flex flex-col gap-4 bg-slate-50 rounded-md shadow-md">
@@ -28,93 +23,97 @@
             Berry Picker Tracker
           </h1>
         </header>
-
         <main class="flex flex-col gap-3 border-b pb-3">
           <h2 class="text-lg font-bold">
             Find your way in the Finnish forests
           </h2>
           <p>
-            The Berry Picker Tracker app is designed to help people who are lost
-            in the Finnish forests. Every year, around 15,000 people go missing
-            in Finland, and a large portion of them are berry pickers. Finding
-            people in the forest consumes time and resources, and typically
-            involves the use of drones, helicopters, tracking dogs, and
-            volunteer searchers.
+            <b>Berry Picker Tracker</b> is an application designed to help people who have gotten
+            lost in the Finnish forests. Every year, around 15,000 people go missing in Finland,
+            and a large portion of them are berry pickers. Finding people in the forest consumes
+            time and resources, and typically involves the use of drones, helicopters, tracking
+            dogs, and volunteer searchers.
           </p>
           <p>
-            The Berry Picker Tracker app aims to make it easier for people to
-            track their location and share it with others. The front-end of the
-            app is built with React-Native, and the back-end is written in
-            Python, and runs on a virtual machine provided by the University
-            of Helsinki. The app uses a detailed topographical map provided by
-            the National Land Survey of Finland.
+            This application aims to make it easier for people to track their location and share it
+            with others. The front-end of the application is built with React Native. The back-end
+            is written in Python and runs on a virtual machine provided by the University of
+            Helsinki. The app uses a detailed topographical map provided by the National Land Survey
+            of Finland.
           </p>
           <p>
-            With the Berry Picker Tracker app, you can see your coordinates, and your route
-            is drawn on the topographic map. You can share your userID with family members or others
+            With the Berry Picker Tracker app, you can see your coordinates, and your route is drawn
+            on the topographic map. You can share your user ID with family members or others
             allowing them to track your route on the "Find User's Route" screen. The app also has
-            many settings to help you save battery life.
+            many settings to help you save battery life. The application is available in several
+            languages.
           </p>
           <p>
-            Currently, the app is in internal testing on Android, and was
-            developed as a University of Helsinki software development project.
+            The application is being developed by a group of students at the University of Helsinki.
           </p>
           <p class="my-16 flex justify-center">
             <a
               href="https://github.com/marjanpoimijat"
               class="bg-blue-600 text-white px-3 py-2 rounded-md"
             >
-              See the code on GitHub →
+              See the source code on GitHub →
             </a>
           </p>
         </main>
-
         <section class="flex gap-3 border-b pb-3">
           <div class="flex flex-col gap-3">
             <h2 class="text-lg font-bold">Features</h2>
             <ul class="list-disc pl-8">
-              <li>Locate yourself using a detailed topographical map</li>
+              <li>
+                Locate yourself using a detailed topographical map
+              </li>
               <li>
                 Start a route to begin sending your coordinates to the server
               </li>
-              <li>Follow your route onscreen and end it when you wish to finish</li>
               <li>
-                Share your userID with others to allow following your route and locating you in case of emergency
+                Follow your route onscreen and end it when you wish to finish
               </li>
-              <li>Change settings to improve battery life</li>
+              <li>
+                Share your user ID with others to allow following your route
+                and locating you in case of emergency
+              </li>
+              <li>
+                Change settings to improve battery life
+              </li>
             </ul>
           </div>
           <div>
             <img src="images/app_pages.png" class="border rounded-lg" />
           </div>
         </section>
-
         <section class="flex gap-3 border-b pb-3">
           <div class="flex flex-col gap-3">
             <h2 class="text-lg font-bold">Demo video</h2>
-            <iframe width="840" height="475" src="https://www.youtube.com/embed/44t3ZLfdkvw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="border rounded-lg"></iframe>
+            <p>This video is outdated and does not reflect the current state of development.</p>
+            <iframe width="840" height="475" src="https://www.youtube.com/embed/44t3ZLfdkvw"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+            picture-in-picture" allowfullscreen class="border rounded-lg"></iframe>
           </div>
         </section>
-
         <section class="flex flex-col gap-3 pb-3">
           <h2 class="text-lg font-bold">The Course</h2>
           <p>
-            The Berry Picker Tracker app was developed by six students as the
-            main part of the University of Helsinki software development project
-            course (Ohjelmistotuotantoprojekti) during fall 2022. It's a
-            hands-on course that focuses on practical experience in agile
-            software development. Students work in teams to develop a project
-            from start to finish, applying agile principles and practices along
-            the way. The course emphasizes the importance of working
-            collaboratively, communicating effectively, and adapting to change.
-            By the end of the course, students will have developed a project as
-            members of a team, gaining valuable experience in agile software
-            development.
+            The development of the Berry Picker Tracker app was started by a group of six students
+            as part of the University of Helsinki software development project course in autumn
+            2022. It's a hands-on course that focuses on practical experience in agile software
+            development. Students work in teams to develop a project from start to finish, applying
+            agile principles and practices along the way. The course emphasizes the importance of
+            working collaboratively, communicating effectively, and adapting to change. By the end
+            of the course, students will have developed a project as members of a team, gaining
+            valuable experience in agile software development.
+          </p>
+          <p>
+            As of spring 2023, the application is being further developed by another group of seven
+            students.
           </p>
         </section>
       </div>
     </div>
-
     <script type="text/javascript" src="script.js"></script>
     <script>
       document.write(
