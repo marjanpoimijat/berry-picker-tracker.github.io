@@ -1,1 +1,3 @@
-### Github.io page for project
+## About
+
+This repository hosts the source code of our github.io page.
